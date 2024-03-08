@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .searchBar{
+    display:flex;   /* flex property makes this container a flex container.*/
+    padding: 20px;
+      background-color:black;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color:peachpuff;
+  }
+  .navigation {
+    background-color: #232F3E;
+    display: flex;
+  flex-wrap: wrap; /* Allow navigation items to wrap to the next line */
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainPage{
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 150px;
+    text-align: left;
+    width:100%;
+    
+  }
+/* Media query for tablets and larger devices */
+@media only screen and (max-width: 1024px) {
+  .mainPage {
+    padding-left: 50px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media query for smaller devices like phones */
+@media only screen and (max-width: 600px) {
+  .mainPage {
+    padding-left: 20px; /* Further adjust padding for even smaller screens */
+  }
+}
+
+  .main{
+    flex-wrap: wrap;
+    float: left;
+    padding:5px;
+    width:200px;
+    display: flex;
+    justify-content: space-evenly;  
+  }
+  .maincent{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    padding:1px;
+    width:80px;
+  }
+  .one-line{
+    flex-wrap: wrap;
+    float: left;
+    display: flex;
+    display: inline;
+  }
+ 
+  .pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    margin:10px;
+    width: 20%;
+    padding: 20px;
+    height: 350px; 
+    background-color: white;
+  }
+  /* Add media query for responsiveness */
+@media only screen and (min-width: 768px) {
+  .pic{
+    margin-right: 10px; /* Adjust margin for larger screens */
+  }
+}
+#last{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  float: left;
+  margin:10px;
+  width: 20%;
+  padding: 20px;
+  height: 350px; 
+  background-color: white;
+}
+.pics, .photo {
+  flex-wrap: wrap;
+  width: 100%; 
+  text-align: center; 
+}
+  .sign{
+    background-color: rgb(229, 202, 26);
+    width:170px;
+    height:20px;
+    border: none;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .image-home {
+    width: 50px;
+  }
+  
+  .image-home img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .image, .sign{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  
